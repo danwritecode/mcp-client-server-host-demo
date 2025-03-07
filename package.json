@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "ofetch": "^1.4.1",
+    "openai": "^4.86.2",
+    "zod": "^3.24.2"
+  }
+}
